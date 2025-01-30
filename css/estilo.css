@@ -1,11 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /*cabeçalho*/
 header img {
     height: 70px;
     width: 70px;
 }
-
 /*Conteudo principal*/
-
 main {
     min-height: 500px;
 }
@@ -33,7 +37,7 @@ main {
 
 #section-vendidos .card {
     margin: 5px;
-    border: 1px soldi #ccc;
+    border: 1px solid #ccc;
     border-radius: 10px;
 }
 
@@ -44,16 +48,17 @@ main {
 }
 
 /*Rodapé*/
+
 footer {
-    text-align: center;    
+    text-align: center;
 }
 
 footer p {
     font-weight: bold;
     padding: 10px;
 }
-/*Botão Voltar topo*/
 
+/*Botão Voltar topo*/
 #voltar-topo {
     position: fixed;
     bottom: 5px;
@@ -71,7 +76,7 @@ footer p {
 }
 
 #section-login input {
-    width: 100px;
+    width: 100%;
 }
 
 /* Formulário de cadastro*/
@@ -83,6 +88,6 @@ footer p {
 }
 
 #form-cadastrar {
-    padding: 50px;
+    padding:  50px;
     display: none;
 }
